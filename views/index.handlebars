@@ -1,0 +1,10 @@
+<ul>
+{{#each burgers}}
+    <li>{{burger_name}}</li>
+{{/each}}
+</ul>
+
+<form action="/api/burgers" method="POST">
+    <input type="text" name="burger_name">
+    <button type="submit">Add Burger</button>
+</form>
