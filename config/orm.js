@@ -1,6 +1,6 @@
 const connection = require("./connection");
 
-const orm ={
+const orm = {
     selectAll(columns, tableName, cb){
         // SELECT * FROM burgers 
         // SELECT column FROM tableName
@@ -12,13 +12,17 @@ const orm ={
     insertOne(tableName, values, cb){
         // SET columnOne = "column value", columnTwo = "column value"
         // INSERT INTO tableName SET value;
-        connection.query("INSERT INTO ? SET ?", [tableName, values], (err, results )=>{
+        connection.query("INSERT INTO ?? SET ?", [tableName, values], (err, results )=>{
             if(err) throw err;
             cb(results);
         });
     },
-    updateOne(){
+    updateOne(tableName, newValues, targetId, cb){
         //UPDATE tablename SET values WHERE id = targetId
+        connection.query("UPDATE ?? SET ? WHERE id =?", [tableName, newValues, targetId], (err, results)=>{
+            if(err) throw err;
+            cb(results)
+        } )
     }
 }
 
