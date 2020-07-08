@@ -1,5 +1,5 @@
-<h2>Burgers to be Eaten</h2>
-<ul>
+<h2>Burgers to Eat</h2>
+<ul id="unconsumed">
 {{#each burgers}}
     {{#unless devoured}}
     <li>
@@ -10,7 +10,7 @@
 {{/each}}
 </ul>
 
-<h2>Burgers that have been consumed</h2>
+<h2 id="consumed">Burgers Consumed</h2>
 <ul>
 {{#each burgers}}
     {{#if devoured}}

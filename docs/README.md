@@ -14,7 +14,7 @@ SO THAT I can have access to lists of burgers to be made and burgers I have devo
 ```
 
 ## How to get started?
-To get started working on this project one must have an understanding of node.js applications, a basic understanding of sql databases, and a working knowledge of handlebars templating. Further a familiarity with the following dependences will aid in understanding the code: express, express-handlebars, & mysql2. 
+A link to the application is [here](https://honest-eh-82768.herokuapp.com/) To get started working on this project one must have an understanding of node.js applications, a basic understanding of sql databases, and a working knowledge of handlebars templating. Further a familiarity with the following dependences will aid in understanding the code: express, express-handlebars, & mysql2. 
 
 ## How to get help?
 To get help with the with the project or code in the files please reach out to user [aidanq52](https://github.com/aidanq52/)
@@ -23,4 +23,4 @@ To get help with the with the project or code in the files please reach out to u
 [aidanq52](https://github.com/aidanq52/) is the current owner of this project. It is not regularly maintained but the user might respond to bug requests
 
 ## Screenshot of the working application
-![]()
+![Burgerlogger](../public/assets/img/burgerLogger.png)

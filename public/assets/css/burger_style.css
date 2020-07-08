@@ -1,3 +1,11 @@
+h1{
+    background-color: teal;
+    text-align: center;
+    color: pink;
+    padding: .25em;
+    margin: -.25em;
+}
+
 h2 {
     color: red;
 }
@@ -6,3 +14,20 @@ body{
     background-color: linen;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+li{
+    padding: .5em;
+}
+
+button{
+    background-color: teal;
+    border-radius: 8px;
+    color: pink;
+}
+/* #consumed{
+    float: right;
+}
+
+#unconsumed{
+    float: left;
+} */
